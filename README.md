@@ -1,3 +1,9 @@
-# .github repository of Our Mobile Programming Team Organization
+# Mobile-Programming-HWs
 
-You can find the readme of the organization in [here](https://github.com/Mobile-Programming-HWs/.github/blob/main/profile/README.md).
+GitHub organization profile repo for the mobile programming homework projects.
+
+The public organization profile is in:
+
+```text
+profile/README.md
+```

@@ -1,12 +1,23 @@
-## Hi there 👋
+# Mobile Programming HWs
 
-<!--
+Android coursework projects for the Mobile Programming course at Sharif University of Technology.
 
-**Here are some ideas to get you started:**
+## Repositories
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- `HW1`: course list and weekly schedule planner.
+- `HW2`: quiz app with local users, settings, scores, and Open Trivia DB.
+- `Project`: MicroMaster course and homework management app.
+
+## Setup
+
+Most apps use:
+
+- Android Studio
+- JDK 11
+- Android SDK Platform 32
+
+Build an app from its repo folder:
+
+```powershell
+.\gradlew.bat :app:assembleDebug
+```
