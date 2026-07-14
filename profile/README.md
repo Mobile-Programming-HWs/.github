@@ -1,8 +1,8 @@
 # Mobile Programming HWs
 
-Android coursework projects for the Mobile Programming course at Sharif University of Technology.
+Coursework projects for the Mobile Programming course at Sharif University of Technology.
 
-These repositories are small Android apps with runnable code, screenshots, setup notes, and focused implementation details. I keep them as course work and as a place to clean up older Android projects over time.
+These repositories are small mobile programming projects with runnable code, screenshots, setup notes, and focused implementation details. I keep them as course work and as a place to clean up older projects over time.
 
 ## Projects
 
@@ -11,6 +11,7 @@ These repositories are small Android apps with runnable code, screenshots, setup
 | [HW1](https://github.com/Mobile-Programming-HWs/HW1) | Terminator | Course browser and weekly schedule planner |
 | [HW2](https://github.com/Mobile-Programming-HWs/HW2) | Quiz of Kings | Trivia game with local users and scores |
 | [Project](https://github.com/Mobile-Programming-HWs/Project) | MicroMaster | Course and homework management app |
+| [Swift](https://github.com/Mobile-Programming-HWs/Swift) | Crypto Tracker | Swift cryptocurrency tracker with terminal and SwiftUI flows |
 | [.github](https://github.com/Mobile-Programming-HWs/.github) | Org profile | Public profile and repo overview |
 
 ## HW1: Terminator
@@ -82,9 +83,34 @@ These repositories are small Android apps with runnable code, screenshots, setup
   </a>
 </p>
 
+## Swift: Crypto Tracker
+
+[Crypto Tracker](https://github.com/Mobile-Programming-HWs/Swift) is a Swift cryptocurrency tracker with a terminal app and a SwiftUI playground.
+
+- Lists default cryptocurrencies with today's price.
+- Opens a detail flow by id, name, or symbol.
+- Shows daily price history for a selected date range.
+- Shows first, last, low, high, average, and change.
+- Prints a selected price range as CSV.
+- Adds and deletes cryptocurrencies with validation.
+- Includes a profile tab and username editing.
+- Includes the assignment PDF, sample session, screenshots, and tests.
+
+<p>
+  <a href="https://github.com/Mobile-Programming-HWs/Swift">
+    <img src="https://raw.githubusercontent.com/Mobile-Programming-HWs/Swift/main/docs/screenshots/terminal-home.svg" width="210" alt="Crypto Tracker terminal home">
+  </a>
+  <a href="https://github.com/Mobile-Programming-HWs/Swift">
+    <img src="https://raw.githubusercontent.com/Mobile-Programming-HWs/Swift/main/docs/screenshots/terminal-history.svg" width="210" alt="Crypto Tracker price history">
+  </a>
+  <a href="https://github.com/Mobile-Programming-HWs/Swift">
+    <img src="https://raw.githubusercontent.com/Mobile-Programming-HWs/Swift/main/docs/screenshots/swiftui-preview.svg" width="210" alt="Crypto Tracker SwiftUI preview">
+  </a>
+</p>
+
 ## Setup
 
-Most projects use:
+The Android apps use:
 
 - Android Studio
 - JDK 17
@@ -104,8 +130,25 @@ adb devices
 .\gradlew.bat :app:installDebug
 ```
 
+The Swift project uses:
+
+- Swift 5.9 or newer
+- Xcode or Swift Playgrounds for the SwiftUI playground
+
+Run the Swift terminal app from its repo folder:
+
+```powershell
+swift run crypto-tracker
+```
+
+Run Swift tests:
+
+```powershell
+swift test
+```
+
 ## Repo Notes
 
-- Each app has its own README with setup steps, screenshots, and implementation notes.
-- The screenshots are stored under `docs/screenshots` in each app repo.
-- The apps are course projects, so the package names and older dependency choices are kept conservative unless a change is needed.
+- Each project has its own README with setup steps, screenshots, and implementation notes.
+- The screenshots are stored under `docs/screenshots` in each project repo.
+- The Android apps are course projects, so the package names and older dependency choices are kept conservative unless a change is needed.
