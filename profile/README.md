@@ -4,6 +4,8 @@ Coursework projects for the Mobile Programming course at Sharif University of Te
 
 These repositories are small mobile programming projects with runnable code, screenshots, setup notes, and focused implementation details. I keep them as course work and as a place to clean up older projects over time.
 
+Project hub: [mobile-programming-hws.github.io](https://mobile-programming-hws.github.io/)
+
 ## Projects
 
 | Repo | App | Main Idea |
@@ -12,6 +14,7 @@ These repositories are small mobile programming projects with runnable code, scr
 | [HW2](https://github.com/Mobile-Programming-HWs/HW2) | Quiz of Kings | Trivia game with local users and scores |
 | [Project](https://github.com/Mobile-Programming-HWs/Project) | MicroMaster | Course and homework management app |
 | [Swift](https://github.com/Mobile-Programming-HWs/Swift) | Crypto Tracker | Swift cryptocurrency tracker with terminal and SwiftUI flows |
+| [mobile-programming-hws.github.io](https://github.com/Mobile-Programming-HWs/mobile-programming-hws.github.io) | Project site | GitHub Pages hub with screenshots and source links |
 | [.github](https://github.com/Mobile-Programming-HWs/.github) | Org profile | Public profile and repo overview |
 
 ## HW1: Terminator
@@ -152,3 +155,4 @@ swift test
 - Each project has its own README with setup steps, screenshots, and implementation notes.
 - The screenshots are stored under `docs/screenshots` in each project repo.
 - The Android apps are course projects, so the package names and older dependency choices are kept conservative unless a change is needed.
+- The GitHub Pages site links the public repos and shows a browsable project overview.

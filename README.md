@@ -22,14 +22,17 @@ Use these in the GitHub repository description field:
 
 | Repo | Description |
 | --- | --- |
+| `mobile-programming-hws.github.io` | GitHub Pages project hub for the Mobile Programming HWs apps, screenshots, and source links. |
 | `HW1` | Android course browser and weekly schedule planner for Sharif course data. |
 | `HW2` | Android trivia game with local users, settings, scores, and Open Trivia DB questions. |
 | `Project` | Android course and homework management app with teacher, TA, and student roles. |
-| `Swift` | Swift cryptocurrency tracker with a terminal app and SwiftUI playground. |
+| `Swift` | Swift cryptocurrency tracker with terminal, SwiftUI, sample data, and tests. |
 | `.github` | Public GitHub organization profile for the Mobile Programming homework projects. |
 
 ## Useful Links
 
+- [Project hub](https://mobile-programming-hws.github.io/)
+- [mobile-programming-hws.github.io](https://github.com/Mobile-Programming-HWs/mobile-programming-hws.github.io)
 - [HW1](https://github.com/Mobile-Programming-HWs/HW1)
 - [HW2](https://github.com/Mobile-Programming-HWs/HW2)
 - [Project](https://github.com/Mobile-Programming-HWs/Project)
